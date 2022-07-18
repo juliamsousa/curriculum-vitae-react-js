@@ -1,0 +1,39 @@
+.about {
+  padding: 5% 10%;
+}
+
+.about h1 {
+  /* adicionar fonte */
+  margin: 2% 0%;
+  font-size: 5rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(89.81deg, #4556E8 -1.72%, #33D2FF 15.05%, #DD5789 35.78%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about p {
+  font-size: 1.3rem;
+}
+
+.about h2 {
+  margin: 5% 0%;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Line 1 */
+.arrow{
+  width: 12%;
+  height: 0px;
+  
+  border: 0.6px solid #FFFFFF;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+

@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  font-size: 62,5%;
+  color: #DBDAD2;
+}
+
+.App {
+  background-color: #111111;
+}
