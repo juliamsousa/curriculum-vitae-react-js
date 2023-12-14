@@ -4,9 +4,19 @@
   scroll-behavior: smooth;
   font-size: 62,5%;
   color: #DBDAD2;
-  
+  /* background-color: #111111; */
 }
 
 .App {
   background-color: #111111;
+}
+
+/* Line 5 */
+.separator {
+  width: 80%;
+  height: 0px;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  border: 0.1px solid #C6C6C6;
 }

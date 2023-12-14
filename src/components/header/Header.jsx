@@ -12,7 +12,7 @@ export default function Header() {
             <nav className="navegacao">
                 <ul>
                     <li className="referencia">
-                        <a href="#about">Currículo</a>
+                        <a href="#experience-section">Currículo</a>
                     </li>
 
                     <li className="referencia">

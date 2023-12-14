@@ -11,8 +11,11 @@ function App() {
       <Header/>
       <About/>
       <Experiences/>
+      <hr className="separator"/>
       <Formation />
+      <hr className="separator"/>
       <Voluntary/>
+      <hr className="separator"/>
     </div>
   );
 }
