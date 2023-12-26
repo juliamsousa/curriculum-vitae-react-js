@@ -1,108 +1,73 @@
 import React from "react";
 import "./experiences.css";
+import Item from "./item/Item";
 
 export default function Experiences() {
   return (
-    <div className="experience" id="experience-section">
-      <h2>Experiência</h2>
+      <section className="experience">
+        <div>
+        <h2 className="experience-title">Experiência Profissional</h2>
+        <Item
+            title="Desenvolvedora RPA Júnior"
+            date="Agosto 2023 - Atualmente"
+            location="Bellinati Perez - Curitiba/PR"
+            description="Atuação como Desenvolvimento RPA com foco na automação de processos jurídicos e backoffice da empresa. Responsável pelo desenvolvimento, sustentação e documentação de automações. Atuando nas seguintes atividades:"
+            bullets={[
+              "Desenvolvimento RPA com IBM RPA",
+              "Desenvolvimento de documentações PDD e SDD",
+              "Implantação e suporte de automações"
+            ]}
+            linkURL="https://www.bellinatiperez.com.br/"
+            linkDescription="Saiba mais sobre: Bellinati Perez"
+          />
 
-      <div>
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Programadora Trainee RPA</h3>
-            <p className="date">Outubro 2021 - Maio 2022</p>
-          </div>
+          <Item
+            title="Desenvolvedora Trainee RPA"
+            date="Outubro 2021 - Maio 2022"
+            location="Compass.uol - Passo Fundo/RS"
+            description="Atuação como Programadora Trainee trabalhando com ferramentas RPA e
+          BPMS. Atuando nas seguintes atividades:"
+            bullets={[
+              "Capacitações na plataforma Universidade Zeev",
+              "Capacitações na ferramenta Softexpert Excellence Suite",
+              "Criação, manutenção e melhorias de processos mapeados na ferramenta BPMS Zeev"
+            ]}
+            linkURL="https://go.compass.uol/hyperautomation-rpa-pt"
+            linkDescription="Saiba mais sobre: RPA Compass.uol"
+          />
 
-          <h4>Compass.uol - Passo Fundo/RS</h4>
-          <p className="descricao">
-            Atuação como Programadora Trainee trabalhando com ferramentas RPA e
-            BPMS. Atuando nas seguintes atividades:
-            <ul>
-              <li>Capacitações na plataforma Universidade Zeev</li>
-              <li>Capacitações na plataforma Universidade Zeev</li>
-              <li>Capacitações na ferramenta Softexpert Excellence Suite</li>
-              <li>
-                Criação, manutenção e melhorias de processos mapeados na
-                ferramenta BPMS Zeev
-              </li>
-            </ul>
-            <a href="https://go.compass.uol/rpa-br" target="blank">
-              Saiba mais sobre: RPA Compass.uol
-            </a>
-          </p>
-        </div>
-
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Estagiária em Desenvolvimento RPA</h3>
-            <p className="date">Junho 2021 - Setembro 2021</p>
-          </div>
-
-          <h4>Compass.uol - Passo Fundo/RS</h4>
-          <p className="descricao">
-            Atuação como estagiária na Trilha de Bolsa RPA em parceria com a
+          <Item
+            title="Estagiária em Desenvolvimento RPA"
+            date="Junho 2021 - Setembro 2021"
+            location="Compass.uol - Passo Fundo/RS"
+            description=" Atuação como estagiária na Trilha de Bolsa RPA em parceria com a
             Universidade Federal de Ouro Preto. Realização das seguintes
-            atividades:
-            <ul>
-              <li>Estudo da trilha RPA na plataforma UiPath Academy</li>
-              <li>
-                Estudo da trilha RPA na plataforma Automation Anywhere
-                University
-              </li>
-              <li>Estudo de trilha RPA na Alura</li>
-              <li>Capacitações em Metodologias Ágeis e Scrum</li>
-              <li>Criação e apresentação de projeto final de RPA</li>
-            </ul>
-          <a href="https://ufop.br/noticias/compasso-uol-abre-selecao-de-bolsistas-em-parceria-com-ufop" target="blank">
-              Saiba mais sobre: Programa de bolsas parceria UFOP/Compass.uol
-            </a>
-          </p>
+            atividades:"
+            bullets={[
+              "Estudo da trilha RPA nas plataformas UiPath Academy, Automation Anywhere University e Alura",
+              "Capacitações em: Metodologias Ágeis, Python, JavaScript, Controle de Versão e Git",
+              "Criação e apresentação de projeto final de RPA"
+            ]}
+            linkURL="https://ufop.br/noticias/compasso-uol-abre-selecao-de-bolsistas-em-parceria-com-ufop"
+            linkDescription="Saiba mais sobre: Programa de bolsas parceria UFOP/Compass.uol"
+          />
+
+          <Item
+            title="Estagiária em Desenvolvimento de Software"
+            date="Outubro 2020 - Março de 2021"
+            location="Bold Bytes - Conselheiro Lafaiete/MG"
+            description=" Desenvolvimento Mobile no projeto Via Real Segurança, atuando nas etapas de:"
+            bullets={[
+              "Desenvolvimento mobile com React Native, Typescrypt e Styled-Components",
+              "Levantamento de requisitos e funcionalidades da aplicação",
+              "Desenvolvimento do protótipo utilizando a ferramenta Figma",
+              "Controle de versão com Git",
+              "Criação de versões de teste na Google Play Store"
+            ]}
+            linkURL="http://viarealseg.com.br/"
+            linkDescription="Saiba mais sobre: ViaReal Segurança"
+          />
         </div>
-
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Bolsista em Desenvolvimento Institucional</h3>
-            <p className="date">Abril 2021 - Setembro 2021</p>
-          </div>
-
-          <h4>Universidade Federal de Ouro Preto - Ouro Preto/MG</h4>
-          <p className="descricao">
-            Atuação como bolsista de Desenvolvimento Institucional na
-            Universidade Federal de Ouro Preto, com o objetivo de trabalhar na
-            construção e alimentação do site do Museu da Farmácia, contribuindo
-            para a ampla divulgação e promoção do acervo do Museu. Atuação das
-            seguintes atividades:
-            <ul>
-              <li>Estudo de WordPress</li>
-              <li>Estudo do plugin Tainacan</li>
-              <li>Análise de viabilidade da ferramenta OpenScholar</li>
-            </ul>
-          </p>
-        </div>
-
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Estagiária em Desenvolvimento de Software</h3>
-            <p className="date">Outubro 2020 - Março de 2021</p>
-          </div>
-
-          <h4>Bold Bytes - Conselheiro Lafaiete/MG</h4>
-          <p className="descricao">
-          Desenvolvimento Mobile no projeto Via Real Segurança, atuando nas etapas de:
-            <ul>
-              <li>Levantamento de requisitos</li>
-              <li>Prototipação utilizando a ferramenta Figma</li>
-              <li>Desenvolvimento com React Native</li>
-              <li>Controle de versão com Git</li>
-              <li>Testes</li>
-              <li>Criação de versões de teste na Google Play Store</li>
-            </ul>
-            <a href="http://viarealseg.com.br/" target="blank">
-              Saiba mais sobre: ViaReal Segurança
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
+      </section>
   );
 }

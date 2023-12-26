@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
   font-size: 62,5%;
   color: #DBDAD2;
-  /* background-color: #111111; */
+  background-color: #111111;
 }
 
 .App {
@@ -16,7 +16,7 @@
   width: 80%;
   height: 0px;
   margin-top: 0%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-left: 10%;
   border: 0.1px solid #C6C6C6;
 }

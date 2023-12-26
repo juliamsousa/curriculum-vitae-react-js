@@ -1,5 +1,6 @@
 .experience-item {
-  margin: 0% 0% 0% 8%;
+  width: 65vw;
+  margin: 0% 0% 8% 10%; 
 }
 
 .title-date {
@@ -13,7 +14,7 @@
 font-style: normal;
 font-weight: 500;
 font-size: 1.7rem;
-line-height: 29px;
+line-height: 2rem;
 color: #FFFFFF;
 }
 
@@ -37,18 +38,34 @@ color: #FFFFFF;
 .experience-item .descricao {
   font-style: normal;
   font-size: 1.3rem;
+  line-height: 35px;
   margin: 2% 0%;
 }
 
-.experience-item ul {
+.experience-item ul {  
+  font-style: normal;
+  font-size: 1.3rem;
   margin: 2% 0% 2% 10%;
   line-height: 2.2rem;
 }
 
 .experience-item a {
+  font-style: normal;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
 .experience-item a:hover {
   color: #878787;
+}
+
+.experience-item i {
+  font-size: 1.3rem;
+  display: block;
+}
+
+.experience-item b {
+  font-style: normal;
+  font-size: 1.3rem;
+  display: block;
 }

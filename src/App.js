@@ -10,9 +10,10 @@ function App() {
     <div className="App">
       <Header/>
       <About/>
-      <Experiences/>
       <hr className="separator"/>
       <Formation />
+      <hr className="separator"/>
+      <Experiences/>
       <hr className="separator"/>
       <Voluntary/>
       <hr className="separator"/>

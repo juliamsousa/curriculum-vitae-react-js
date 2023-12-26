@@ -1,60 +1,57 @@
 import React from "react";
-import "./formation.css";
+import "../experiences/experiences.css";
+import Item from "../experiences/item/Item";
 
 export default function Formation() {
   return (
-    <div className="experience">
-      <h2>Formação Acadêmica</h2>
-
+    <section className="experience" id="experience-section">
       <div>
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Bacharelado em Ciência da Computação</h3>
-            <p className="date">Março 2018 - Agosto 2023</p>
-          </div>
+      <h2 className="experience-title" id="unformatted-title">Formação Acadêmica</h2>
+      <Item
+        title="Bacharelado em Ciência da Computação"
+        date="Março 2018 - Agosto 2023"
+        location="Universidade Federal de Ouro Preto - Ouro Preto/MG"
+        // description="Atividades e grupos:"
+        // bullets={[
+        //   "Bolsista de Iniciação Tecnológica pelo CNPq no projeto GoldFit Soccer",
+        //   "Voluntária na Empresa Junior Voluta Soluções Digitais",
+        //   "Bolsista em Desenvolvimento Institucional para o Museu da Farmácia",
+        // ]}
+        knowledge="Conhecimentos:"
+        knowledges={
+          [
+            "Lógica de Programação e Estruturas de Dados",
+            "Programação Orientada a Objetos e Programação Funcional",
+            "Teoria da Computação e Teoria dos Grafos",
+            "Análise de Algoritmos e Complexidade",
+            "Bancos de Dados"
+          ]
+        }
+        coeficiente="Coeficiente de Rendimento: 7.8"
+        />
 
-          <h4>Universidade Federal de Ouro Preto - Ouro Preto/MG</h4>
-          <p className="descricao">
-            <b>Atividades e grupos: </b> Voluntária na Empresa Junior Voluta Soluções Digitais e Bolsista em Desenvolvimento Institucional para o Museu da Farmácia.
-          <br></br>
-          <br></br>
-          <b>Conhecimentos:  </b>          
-          <ul>
-              <li>Lógica de Programação</li>
-              <li>Estruturas de Dados</li>
-              <li>Programação Orientada a Objetos</li>
-              <li>Teoria da Computação</li>
-              <li>Analise de Algoritmos e Complexidade</li>
-            </ul>
-          <i>Coeficiente de Rendimento: 7.8</i>
-          </p>
-        </div>
-
-        <div className="experience-item">
-          <div className="title-date">
-            <h3 className="title">Técnico Integrado em Eletrotécnica</h3>
-            <p className="date">Fevereiro 2015 - Dezembro 2017</p>
-          </div>
-
-          <h4>Instituto Federal de Educação, Ciência e Tecnlogia - Cons. Lafaiete/MG</h4>
-          <p className="descricao">
-            <b>Atividades e grupos: </b> Voluntária no NUERGD – Núcleo de Estudos em Raça Gênero e Diversidade e Bolsista no projeto IFMG - Música.
-          <br></br>
-          <br></br>
-          <b>Conhecimentos:  </b>          
-          <ul>
-              <li>Lógica de Programação</li>
-              <li>Eletrônica</li>
-              <li>Eletricidade</li>
-              <li>Mecânica</li>
-              <li>Segurança do Trabalho</li>
-              <li>Automação</li>
-              <li>Instalações Elétricas</li>
-            </ul>
-          <i>Coeficiente de Rendimento: 82.8</i>
-          </p>
-        </div>
+      <Item
+        title="Técnico Integrado em Eletrotécnica"
+        date="Fevereiro 2015 - Dezembro 2017"
+        location="Instituto Federal de Educação, Ciência e Tecnlogia - Cons. Lafaiete/MG"
+        // description="Atividades e grupos:"
+        // bullets={[
+        //   "Voluntária no NUERGD – Núcleo de Estudos em Raça Gênero e Diversidade",
+        //   "Bolsista no projeto IFMG - Música"
+        // ]}
+        knowledge="Conhecimentos:"
+        knowledges={
+          [
+            "Lógica de Programação",
+            "Eletrônica, Eletricidade e Mecânica",
+            "Segurança do Trabalho",
+            "Automação",
+            "Instalações Elétricas"
+          ]
+        }
+        coeficiente="Coeficiente de Rendimento: 82.8"
+        />
       </div>
-    </div>
+    </section>
   );
 }

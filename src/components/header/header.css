@@ -7,7 +7,11 @@ header {
     padding: 0px;
     height: 20vh;
     width: 100%;
-    background: #201F1F;
+    background: #201F1F !important;
+  }
+
+  #home{ 
+    /* background: #201F1F !important */
   }
   
   header .menu {
