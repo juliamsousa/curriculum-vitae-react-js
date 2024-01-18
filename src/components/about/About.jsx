@@ -9,11 +9,10 @@ export default function About() {
       <h1>Júlia Miranda</h1>
 
       <p>
-        Desenvolvedora com conhecimentos em RPA, C++, Javascript e React Native.
-        Cursando atualmente Bacharelado em Ciência da Computação na Universidade
-        Federal de Ouro Preto, buscando integrar conhecimentos acadêmicos com
-        conhecimentos do mercado de trabalho. Tenho interesse por
-        desenvolvimento Mobile e Front End e amo aprender assuntos novos.
+        Desenvolvedora Full Stack com 3+ anos de experiência em desenvolvimento de software.
+        <br/>
+        Bacharel em Ciência da Computação pela Universidade Federal de Ouro Preto e Técnica em Eletrotécnica pelo Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais.
+        Apresenta uma bagagem diversificada em áreas do desenvolvimento como Mobile, Front-End, Back-End e Hiper Automação.  
       </p>
     </div>
   );
