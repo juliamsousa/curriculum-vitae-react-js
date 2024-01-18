@@ -20,7 +20,7 @@ export default function Header() {
                     </li>
 
                     <li className="referencia">
-                        <a href="#div-slider">Contato</a>
+                        <a href="#footer">Contato</a>
                     </li>
                 </ul>
             </nav>
