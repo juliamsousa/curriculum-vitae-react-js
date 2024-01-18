@@ -1,0 +1,22 @@
+.project-item-container {
+    /* padding: 5%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects {
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* margin-left: -10%;
+    margin-top: 1%; */
+}

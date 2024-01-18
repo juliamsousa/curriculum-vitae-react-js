@@ -12,27 +12,22 @@ export default function Voluntary() {
           date="Setembro 2022 - Agosto 2023"
           location="Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq"
           description="Desde 2015, nosso grupo de pesquisa realiza o mapeamento multidimensional e longitudinal de jovens futebolistas. Com os dados coletados é aperfeiçoado um modelo de identificação de talentos para o futebol. A partir de processos analíticos e heurísticos construímos uma equação matemática que estima o potencial do jovem futebolista para o alto rendimento. Atuação como bolsista no projeto GoldFit Soccer: Sistema Especialista de Identificação de Talentos no Futebol:"
-          bullets={[
-            "Desenho e modelagem Conceitual e Relacional do Banco de Dados",
-            "Desenvolvimento de Banco de Dados em Python utilizando o framework Django",
-            "Desenvolvimento de Dashboard utilizando React.js.",
-          ]}
+          linkURL="https://www.monografias.ufop.br/handle/35400000/5979"
+          linkDescription="Saiba mais sobre: GoldFit Soccer"
+          // bullets={[
+          //   "Desenho e modelagem Conceitual e Relacional do Banco de Dados",
+          //   "Desenvolvimento de Banco de Dados em Python utilizando o framework Django",
+          //   "Desenvolvimento de Dashboard utilizando React.js.",
+          // ]}
         />
 
         <Item
           title="Voluta Soluções Digitais - Empresa Júnior"
           date="Julho 2020 - Dezembro 2021"
           location="Universidade Federal de Ouro Preto - Ouro Preto/MG"
-          description="Atuação como assessora na diretoria de Presidência, participando das seguintes áreas:"
-          bullets={[
-            "Documentação interna como estatuto, regimento interno, atas e contratos de prestação de serviços",
-            "Planejamento, controle financeiro e prestação de contas como livros diários e fluxos de caixa",
-            "Processo Seletivo de novos membros",
-            "Parcerias com empresas Sêniores e Juniores",
-            "Relacionamento com a IES e professor orientador",
-            "Capacitações em Hard e Soft Skills",
-            "Desenvolvimento de projetos Front End com React"
-          ]}
+          description="A Voluta Soluções Digitais deseja proporcionar oportunidades de acesso e aprimoramento à tecnologia para as micro e pequenas empresas, promovendo aprendizado e visão empreendedora para os alunos que nela colaboram. Atuação como assessora na diretoria de Presidência, participando das atividades de administração financeira, de contratos e documentação interna."
+          linkURL="https://www.voluta.ufop.br/"
+          linkDescription="Saiba mais sobre: Voluta Soluções Digiais"
         />
 
         <Item
@@ -49,10 +44,7 @@ export default function Voluntary() {
           title="NUERGD – Núcleo de Estudos em Raça, Gênero e Diversidade"
           date="Maio 2017 - Dez. 2017"
           location="Instituto Federal de Educação, Ciência e Tecnlogia - Cons. Lafaiete/MG"
-          description=" O NUERGD – Núcleo de Estudos em Raça, Gênero e Diversidade - foi criado em 2017 e coordenado pela Profª.
-        Marcela dos Santos Lima com o intuito de elucidar questões sobre a pluralidade de raça, gênero e 
-        sexualidade, criando um espaço seguro para os alunos e contribuindo para sua formação humana. 
-        Os encontros eram periódicos e representantes de cada turma ficavam responsáveis por apresentar um tema."
+          description=" O NUERGD – Núcleo de Estudos em Raça, Gênero e Diversidade - foi criado em 2017 e coordenado pela Profª. Marcela dos Santos Lima com o intuito de elucidar questões sobre a pluralidade de raça, gênero e sexualidade, criando um espaço seguro para os alunos e contribuindo para sua formação humana. Os encontros eram periódicos e representantes de cada turma ficavam responsáveis por apresentar um tema."
           linkURL="https://www.ifmg.edu.br/conselheirolafaiete/noticias/noticias-2016/campus-avancado-conselheiro-lafaiete-cria-o-nuergd-2013-nucleo-de-estudos-em-raca-genero-e-diversidade"
           linkDescription="Saiba mais sobre: NUERGD - IFMG"
         />

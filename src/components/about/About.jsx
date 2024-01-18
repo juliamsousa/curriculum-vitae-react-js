@@ -15,20 +15,6 @@ export default function About() {
         conhecimentos do mercado de trabalho. Tenho interesse por
         desenvolvimento Mobile e Front End e amo aprender assuntos novos.
       </p>
-      {/* <div className="socials">
-        <h2>Sobre mim</h2>
-      </div> */}
-{/* 
-
-        <a href="https://www.linkedin.com/in/julia-miranda-sousa/">
-          <button className="socials-button">
-            LinkedIn
-          </button>
-        </a>
-        <a href="https://github.com/juliamsousa">
-          <button className="socials-button">GitHub</button>
-        </a>
-      */}
     </div>
   );
 }

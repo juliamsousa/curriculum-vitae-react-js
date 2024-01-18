@@ -12,11 +12,11 @@ export default function Header() {
             <nav className="navegacao">
                 <ul>
                     <li className="referencia">
-                        <a href="#experience-section">Currículo</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
 
                     <li className="referencia">
-                        <a href="#div-slider">Projetos</a>
+                        <a href="#experience-section">Currículo</a>
                     </li>
 
                     <li className="referencia">

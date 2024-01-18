@@ -7,7 +7,7 @@
 .about h1 {
   /* adicionar fonte */
   margin: 2% 0%;
-  font-size: 5rem;
+  font-size: 6rem;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
@@ -37,82 +37,4 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.socials {
-  display: flex;
-  align-items: center;
-  width: 40%;
-  justify-content: space-between;
-  margin: 3% 0%;
-}
-
-.socials-button {
-  text-align: center;
-  border-radius: 8.84245px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 53px;
-  max-width: 250px;
-  max-height: 60px;
-  width: 15vw;
-  height: 8vh;
-  /* or 332% */
-  color: #FFFFFF;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  /* margin-left: 5%; */
-}
-a {
-  text-decoration: none;
-
-}
-
-.socials-button:before {
-  content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-  position: absolute;
-  top: -2px;
-  left:-2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity .3s ease-in-out;
-  border-radius: 10px;
-}
-
-.socials-button:active {
-  color: #000
-}
-
-.socials-button:active:after {
-  background: transparent;
-}
-
-.socials-button:hover:before {
-  opacity: 1;
-}
-
-.socials-button:after {
-  z-index: -1;
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #111;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-@keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
 }

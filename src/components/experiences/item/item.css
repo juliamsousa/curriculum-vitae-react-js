@@ -37,21 +37,21 @@ color: #FFFFFF;
 
 .experience-item .descricao {
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 35px;
   margin: 2% 0%;
 }
 
 .experience-item ul {  
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 2% 0% 2% 10%;
   line-height: 2.2rem;
 }
 
 .experience-item a {
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -60,12 +60,12 @@ color: #FFFFFF;
 }
 
 .experience-item i {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: block;
 }
 
 .experience-item b {
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: block;
 }

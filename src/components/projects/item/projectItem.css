@@ -1,0 +1,36 @@
+.project-item {
+  width: 30vw;
+  margin-bottom: 10%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.project-item:hover {
+  top: -10px;
+}
+
+.project-item h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #DBDAD2;
+}
+
+.project-item p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: #C4C4C4;
+}
+
+.project-item img {
+  width: 30vw;
+  height: 45vh;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  object-fit: cover;
+}

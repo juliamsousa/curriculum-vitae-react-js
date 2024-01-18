@@ -28,9 +28,9 @@ export default function Experiences() {
             description="Atuação como Programadora Trainee trabalhando com ferramentas RPA e
           BPMS. Atuando nas seguintes atividades:"
             bullets={[
-              "Capacitações na plataforma Universidade Zeev",
-              "Capacitações na ferramenta Softexpert Excellence Suite",
-              "Criação, manutenção e melhorias de processos mapeados na ferramenta BPMS Zeev"
+              "Desenvolvimento de automações em BPMS",
+              "Levantamento de requisitos de novas automações junto aos clientes e time de desenvolvimento",
+              "Desenvolvimento de documentações de especificação de requisitos de automação"
             ]}
             linkURL="https://go.compass.uol/hyperautomation-rpa-pt"
             linkDescription="Saiba mais sobre: RPA Compass.uol"
