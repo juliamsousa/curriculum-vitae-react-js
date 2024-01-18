@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/curriculum-vitae-react-js/static/css/main.e2db1ac3.css",
+    "main.js": "/curriculum-vitae-react-js/static/js/main.9a2ce8ff.js",
+    "static/js/787.0c3f432a.chunk.js": "/curriculum-vitae-react-js/static/js/787.0c3f432a.chunk.js",
+    "static/media/decom.jpg": "/curriculum-vitae-react-js/static/media/decom.d4b1a586a8ee3057b525.jpg",
+    "static/media/logo-2 1.svg": "/curriculum-vitae-react-js/static/media/logo-2 1.e23396cbb7aa59dd8a9934fae907c0cc.svg",
+    "static/media/Cold Breeze.png": "/curriculum-vitae-react-js/static/media/Cold Breeze.20f06268aca6735535ae.png",
+    "static/media/R15.jpg": "/curriculum-vitae-react-js/static/media/R15.4c4428a8f5b67129182a.jpg",
+    "static/media/sudoku.png": "/curriculum-vitae-react-js/static/media/sudoku.73518805a852692e0b27.png",
+    "static/media/vensym.png": "/curriculum-vitae-react-js/static/media/vensym.07d22a0b7380eac82739.png",
+    "index.html": "/curriculum-vitae-react-js/index.html",
+    "main.e2db1ac3.css.map": "/curriculum-vitae-react-js/static/css/main.e2db1ac3.css.map",
+    "main.9a2ce8ff.js.map": "/curriculum-vitae-react-js/static/js/main.9a2ce8ff.js.map",
+    "787.0c3f432a.chunk.js.map": "/curriculum-vitae-react-js/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2db1ac3.css",
+    "static/js/main.9a2ce8ff.js"
+  ]
+}
